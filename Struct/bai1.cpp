@@ -10,7 +10,7 @@ struct IMU_Data {
         yaw = 0.0;
     }
     IMU_Data(float r, float p, float y) {
-        roll = r;
+        roll = r;//update
         pitch = p;
         yaw = y;
     }
